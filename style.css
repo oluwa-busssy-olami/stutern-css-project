@@ -70,6 +70,7 @@ section {
     justify-content: space-between;
     margin: 130px 60px 0 50px;
     align-items: center;
+    padding: 0 150px 0 120px;
 }
 
 .home-content {
@@ -77,7 +78,7 @@ section {
 }
 
 .homepage-img img {
-    width: 400px;
+    width: 350px;
     margin-left: 50px;
     border-radius: 50%;
 }
@@ -105,7 +106,10 @@ section {
 }
 
 .para-home {
-    margin: 0 40px 0 0;
+    margin: 0 100px 0 0;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
 p a {
@@ -121,4 +125,28 @@ button {
     border-radius: 10px;
     color: white;
     background-color: #000;
+}
+
+.section-two {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.set-skill {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.skillset {
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(231, 60%, 50%));
+    box-shadow: -1px 13px 17px 0px rgb(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: ;
+}
+
+.skillset p {
+    padding: 15px;
+    text-align: center;
 }
